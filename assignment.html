@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var player = {
+          name:"carter",
+          foot:"right",
+          team:"new guys",
+          age:"24",
+        };
+
+        var cars = ["toyota","benz","dodge","honda","nissan"];
+
+        document.write("The name of the number one player is " + player.name + ". He is " + player.age + " years old.");
+        document.write("<br>" + "His strong foot is " + player.foot + " and he plays for the " + player.team + "<br>");
+
+        document.write("My mom has a " + cars[0]);
+        document.write("<br>" + cars.join("-"));
+        cars.pop();
+        document.write("<br>" + cars.join("-"));
+    </script>
+</body>
+</html>
